@@ -1,0 +1,22 @@
+{
+  "formatVersion": 1,
+  "id": "snapchat-flagship-camera",
+  "title": "Snapchat - better camera (Pixel 7 spoof)",
+  "description": "Presents a Pixel 7 to Snapchat so it may use the full-resolution Camera2 path instead of a low-res preview capture on unrecognized devices. Apply to Snapchat and relaunch its profile. Community-provided; effect varies by phone.",
+  "author": "privacykit",
+  "scope": "app",
+  "packageName": "com.snapchat.android",
+  "identifiers": {
+    "build_manufacturer": "Google",
+    "build_brand": "google",
+    "build_model": "Pixel 7",
+    "build_device": "panther",
+    "build_product": "panther",
+    "build_board": "panther",
+    "build_hardware": "panther",
+    "build_type": "user",
+    "build_tags": "release-keys",
+    "build_fingerprint": "google/panther/panther:13/TQ3A.230805.001.S1/10316531:user/release-keys"
+  },
+  "customHooks": []
+}
