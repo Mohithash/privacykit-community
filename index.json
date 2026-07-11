@@ -1,0 +1,24 @@
+{
+  "formatVersion": 1,
+  "configs": [
+    {
+      "id": "universal-android-13",
+      "title": "Report Android 13 (universal)",
+      "description": "Every hooked app sees Android 13 / API 33.",
+      "author": "privacykit",
+      "scope": "universal",
+      "path": "configs/universal-android-13.json",
+      "updatedAt": 1752200000000
+    },
+    {
+      "id": "app-pixel-8-template",
+      "title": "Pixel 8 device (app template)",
+      "description": "Template: presents a Pixel 8 to one app via its profile identifiers.",
+      "author": "privacykit",
+      "scope": "app",
+      "packageName": "com.example.app",
+      "path": "configs/app-pixel-8-template.json",
+      "updatedAt": 1752200000000
+    }
+  ]
+}
