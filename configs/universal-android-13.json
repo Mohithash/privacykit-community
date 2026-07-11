@@ -1,0 +1,29 @@
+{
+  "formatVersion": 1,
+  "id": "universal-android-13",
+  "title": "Report Android 13 (universal)",
+  "description": "Makes every hooked app see Android 13 / API 33 by overriding Build.VERSION.RELEASE and SDK_INT. Useful when an app gates features or fingerprints on OS version.",
+  "author": "privacykit",
+  "scope": "universal",
+  "identifiers": {},
+  "customHooks": [
+    {
+      "enabled": true,
+      "type": "field",
+      "allowGlobal": true,
+      "className": "android.os.Build$VERSION",
+      "member": "RELEASE",
+      "rule": "static",
+      "value": "13"
+    },
+    {
+      "enabled": true,
+      "type": "field",
+      "allowGlobal": true,
+      "className": "android.os.Build$VERSION",
+      "member": "SDK_INT",
+      "rule": "static",
+      "value": "33"
+    }
+  ]
+}
