@@ -1,0 +1,22 @@
+{
+  "formatVersion": 1,
+  "id": "google-photos-pixel-2xl",
+  "title": "Google Photos - unlimited original (Pixel 2 XL)",
+  "description": "Alternative Pixel 2 XL spoof for Google Photos original-quality backup, in case the Pixel XL one is not honored. Apply to Google Photos and relaunch its profile. Community-provided; may stop working at any time.",
+  "author": "privacykit",
+  "scope": "app",
+  "packageName": "com.google.android.apps.photos",
+  "identifiers": {
+    "build_manufacturer": "Google",
+    "build_brand": "google",
+    "build_model": "Pixel 2 XL",
+    "build_device": "taimen",
+    "build_product": "taimen",
+    "build_board": "taimen",
+    "build_hardware": "taimen",
+    "build_type": "user",
+    "build_tags": "release-keys",
+    "build_fingerprint": "google/taimen/taimen:11/RP1A.201005.004.A1/6782484:user/release-keys"
+  },
+  "customHooks": []
+}
