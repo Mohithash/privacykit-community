@@ -1,0 +1,17 @@
+{
+  "formatVersion": 1,
+  "id": "app-pixel-8-template",
+  "title": "Pixel 8 device (app template)",
+  "description": "Template for an app-scoped config: presents a Google Pixel 8 to one app by overriding its active profile's device identifiers. Copy this, change \"packageName\" to your target app, and submit.",
+  "author": "privacykit",
+  "scope": "app",
+  "packageName": "com.example.app",
+  "identifiers": {
+    "build_manufacturer": "Google",
+    "build_brand": "google",
+    "build_model": "Pixel 8",
+    "build_device": "shiba",
+    "build_product": "shiba"
+  },
+  "customHooks": []
+}
