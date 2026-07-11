@@ -1,0 +1,13 @@
+{
+  "formatVersion": 1,
+  "id": "universal-stock-device",
+  "title": "Look like a stock retail device (universal)",
+  "description": "Overrides Build.TAGS to release-keys and Build.TYPE to user for every hooked app, so basic checks see a clean, non-debug retail build. Does not defeat strong integrity (Play Integrity / hardware attestation).",
+  "author": "privacykit",
+  "scope": "universal",
+  "identifiers": {},
+  "customHooks": [
+    { "enabled": true, "type": "field", "allowGlobal": true, "className": "android.os.Build", "member": "TAGS", "rule": "static", "value": "release-keys" },
+    { "enabled": true, "type": "field", "allowGlobal": true, "className": "android.os.Build", "member": "TYPE", "rule": "static", "value": "user" }
+  ]
+}
