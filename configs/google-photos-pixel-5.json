@@ -1,0 +1,22 @@
+{
+  "formatVersion": 1,
+  "id": "google-photos-pixel-5",
+  "title": "Google Photos - free storage (Pixel 5)",
+  "description": "Presents a Pixel 5 to Google Photos. Pixel 3a-5 get free (high-quality) backup benefits. Apply to Google Photos and relaunch its profile. Community-provided.",
+  "author": "privacykit",
+  "scope": "app",
+  "packageName": "com.google.android.apps.photos",
+  "identifiers": {
+    "build_manufacturer": "Google",
+    "build_brand": "google",
+    "build_model": "Pixel 5",
+    "build_device": "redfin",
+    "build_product": "redfin",
+    "build_board": "redfin",
+    "build_hardware": "redfin",
+    "build_type": "user",
+    "build_tags": "release-keys",
+    "build_fingerprint": "google/redfin/redfin:13/TQ3A.230805.001.S1/10316531:user/release-keys"
+  },
+  "customHooks": []
+}
