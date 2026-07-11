@@ -2,6 +2,55 @@
   "formatVersion": 1,
   "configs": [
     {
+      "id": "google-photos-pixel-xl",
+      "title": "Google Photos - unlimited original (Pixel XL)",
+      "description": "Presents a Pixel XL to Google Photos for free unlimited original-quality backup.",
+      "author": "privacykit",
+      "scope": "app",
+      "packageName": "com.google.android.apps.photos",
+      "path": "configs/google-photos-pixel-xl.json",
+      "updatedAt": 1752300000000
+    },
+    {
+      "id": "google-photos-pixel-2xl",
+      "title": "Google Photos - unlimited original (Pixel 2 XL)",
+      "description": "Alternative Pixel 2 XL spoof for Google Photos original-quality backup.",
+      "author": "privacykit",
+      "scope": "app",
+      "packageName": "com.google.android.apps.photos",
+      "path": "configs/google-photos-pixel-2xl.json",
+      "updatedAt": 1752300000000
+    },
+    {
+      "id": "google-photos-pixel-5",
+      "title": "Google Photos - free storage (Pixel 5)",
+      "description": "Presents a Pixel 5 to Google Photos for free backup benefits.",
+      "author": "privacykit",
+      "scope": "app",
+      "packageName": "com.google.android.apps.photos",
+      "path": "configs/google-photos-pixel-5.json",
+      "updatedAt": 1752300000000
+    },
+    {
+      "id": "snapchat-flagship-camera",
+      "title": "Snapchat - better camera (Pixel 7 spoof)",
+      "description": "Presents a Pixel 7 to Snapchat for the full-resolution Camera2 path.",
+      "author": "privacykit",
+      "scope": "app",
+      "packageName": "com.snapchat.android",
+      "path": "configs/snapchat-flagship-camera.json",
+      "updatedAt": 1752300000000
+    },
+    {
+      "id": "universal-stock-device",
+      "title": "Look like a stock retail device (universal)",
+      "description": "Build.TAGS=release-keys, Build.TYPE=user for every hooked app.",
+      "author": "privacykit",
+      "scope": "universal",
+      "path": "configs/universal-stock-device.json",
+      "updatedAt": 1752300000000
+    },
+    {
       "id": "universal-android-13",
       "title": "Report Android 13 (universal)",
       "description": "Every hooked app sees Android 13 / API 33.",
