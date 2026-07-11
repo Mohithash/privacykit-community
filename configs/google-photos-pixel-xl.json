@@ -1,0 +1,22 @@
+{
+  "formatVersion": 1,
+  "id": "google-photos-pixel-xl",
+  "title": "Google Photos - unlimited original (Pixel XL)",
+  "description": "Presents a Pixel XL to Google Photos. The original Pixel/Pixel XL get free unlimited original-quality backup, so Photos may offer it. Apply to Google Photos, then create/relaunch its profile. Community-provided; results vary and can change any time.",
+  "author": "privacykit",
+  "scope": "app",
+  "packageName": "com.google.android.apps.photos",
+  "identifiers": {
+    "build_manufacturer": "Google",
+    "build_brand": "google",
+    "build_model": "Pixel XL",
+    "build_device": "marlin",
+    "build_product": "marlin",
+    "build_board": "msm8996",
+    "build_hardware": "marlin",
+    "build_type": "user",
+    "build_tags": "release-keys",
+    "build_fingerprint": "google/marlin/marlin:10/QP1A.191005.007.A3/5972272:user/release-keys"
+  },
+  "customHooks": []
+}
